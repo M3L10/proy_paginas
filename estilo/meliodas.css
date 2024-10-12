@@ -1,0 +1,61 @@
+.padre
+{
+    padding: 5px;
+    background-color: rgb(253, 152, 0);
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header header header"
+                         "nav    nav    nav    nav    nav    nav"
+                         "cont1  cont2  cont3  cont4  cont5  cont6"
+                         "foot   foot   foot   foot   foot   foot";
+}
+.padre .header
+{
+    background-color: rgb(255, 0, 0);
+    grid-area: header;
+}
+.padre .nav
+{
+    background-color: rgb(255, 0, 234);
+    grid-area: nav;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+}
+.padre .cont1
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont1;
+}
+.padre .cont2
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont2;
+}
+.padre .cont3
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont3;
+}
+.padre .cont4
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont4;
+}
+.padre .cont5
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont5;
+}
+.padre .cont6
+{
+    background-color: rgb(123, 255, 0);
+    grid-area: cont6;
+}
+
+.padre .foot
+{
+    background-color: rgba(156, 8, 255, 0.692);
+    grid-area: foot;
+}
